@@ -10,7 +10,7 @@ void main(){
 	//欢迎语句
 	printf("welecome!\r\n");
 	printf("please select funcion from below!\r\n");
-	printf("1,register tools; 2,进制转换 \r\n");
+	printf("1,register tools; 2,进制转换(未开发) \r\n");
 
 	scanf("%d",&function);
 
@@ -18,9 +18,11 @@ void main(){
 	switch (function)
 	{
 	case 1:
+		//16进制转寄存器
 		register_tools(&reg,&reg_table);
 		break;
 	case 2:
+		//进制转换
 		break;
 	}
 	

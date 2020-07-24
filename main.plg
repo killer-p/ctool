@@ -6,19 +6,19 @@
 --------------------Configuration: main - Win32 Debug--------------------
 </h3>
 <h3>Command Lines</h3>
-Creating temporary file "D:\MDK5\RSP2883.tmp" with contents
+Creating temporary file "D:\MDK5\RSP78F4.tmp" with contents
 [
 /nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /FR"Debug/" /Fp"Debug/main.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
 "D:\temple\tool\components\register.c"
 ]
-Creating command line "cl.exe @D:\MDK5\RSP2883.tmp" 
-Creating temporary file "D:\MDK5\RSP2884.tmp" with contents
+Creating command line "cl.exe @D:\MDK5\RSP78F4.tmp" 
+Creating temporary file "D:\MDK5\RSP78F5.tmp" with contents
 [
 kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:console /incremental:yes /pdb:"Debug/main.pdb" /debug /machine:I386 /out:"Debug/main.exe" /pdbtype:sept 
 .\Debug\main.obj
 .\Debug\register.obj
 ]
-Creating command line "link.exe @D:\MDK5\RSP2884.tmp"
+Creating command line "link.exe @D:\MDK5\RSP78F5.tmp"
 <h3>Output Window</h3>
 Compiling...
 register.c
