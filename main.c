@@ -2,9 +2,11 @@
 #include "components/register.h"
 #include "mydefine.h" 
 
-int main(){
+void main(){
 	int function=0;
-	struct Register reg;
+	struct Register_t reg;
+	struct Table_t reg_table;
+	
 	//»¶Ó­Óï¾ä
 	printf("welecome!\r\n");
 	printf("please select funcion from below!\r\n");
@@ -16,9 +18,10 @@ int main(){
 	switch (function)
 	{
 	case 1:
+		register_tools(&reg,&reg_table);
 		break;
 	case 2:
 		break;
 	}
-	return 1;
+	
 }
